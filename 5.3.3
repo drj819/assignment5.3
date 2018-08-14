@@ -1,0 +1,52 @@
+Assignment 5.3 (1)
+
+vec1 = c(rownames(mtcars[1:15,]))
+vec2 = c(rownames(mtcars[11:25,]))
+
+all.equal(vec1,vec2)
+isTRUE(all.equal(vec1,vec2)
+identical(vec1,vec2)      
+if(isTRUE(all.equal(vec1,vec2)) 
+   
+
+   
+(2)
+
+vec1 = c(rownames(mtcars[1:15,]))
+vec2 = c(rownames(mtcars[11:25,]))
+sort(vec1)
+sort(vec1, decreasing=TRUE)
+sort(vec2)
+sort(vec2, decreasing=TRUE)
+
+(3)
+
+
+
+str compactly diaplay the internal structure of an R Object.It is a diagnostic function 
+alternative to summary.
+
+Paste converts its arguments to character strings, and concatenates them. 
+If the arguments are vectors, they are concatenated term-by-term to give a character vector result. 
+
+str(str)
+str(lm)
+str(ls)
+x<-rnorm(100,2,4)
+summary(x)
+str(x)
+
+vector_1 <- c("a", "b") 
+vector_2 <- c("x", "y") 
+paste(vector_1, vector_2, collapse = " + ") 
+
+
+
+
+
+(4)
+x<-c("g","h","f")
+y<-c("d","e","f")  
+paste(x,y)
+paste(x,y,sep = ",")
+paste(x,y,sep = "-")
